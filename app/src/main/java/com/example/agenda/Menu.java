@@ -18,6 +18,6 @@ public class Menu extends FragmentActivity {
         tabHost.addTab(tabHost.newTabSpec("Afegir").setIndicator("Afegir"),TabAnadir.class,null);
         tabHost.addTab(tabHost.newTabSpec("LLista").setIndicator("LLista"),TabListar.class, null);
         tabHost.addTab(tabHost.newTabSpec("Modifica").setIndicator("Modifica"),TabModificar.class, null);
-        tabHost.addTab(tabHost.newTabSpec("Borra").setIndicator("Borra"),TabEsborrar.class, null);
+        tabHost.addTab(tabHost.newTabSpec("Borrar").setIndicator("Borrar"),TabEsborrar.class, null);
     }
 }
