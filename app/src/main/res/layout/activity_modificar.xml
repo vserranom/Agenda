@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/Añadir2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="78dp"
+        android:id="@+id/naixament2"
+        android:layout_below="@+id/name2"
+        android:layout_alignParentStart="true"
+        android:hint="Fecha Nacimiento[dd/MM/yyyy]" />
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name2"
+        android:layout_alignStart="@+id/name2"
+        android:layout_marginTop="12dp"
+        android:id="@+id/radioGroup2">
+
+        <RadioButton
+            android:id="@+id/home2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:checked="false"
+            android:text="Home" />
+
+        <RadioButton
+            android:id="@+id/dona2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Dona" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/naixament2"
+        android:layout_alignStart="@+id/Añadir2"
+        android:layout_marginTop="79dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/dni2"
+        android:hint="Dni"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name2"
+        android:hint="Nombre"
+        android:layout_below="@+id/dni2"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
